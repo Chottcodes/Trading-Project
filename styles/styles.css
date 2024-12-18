@@ -10,7 +10,7 @@ body {
 .nav-container {
   width: 100%;
   height: 100px;
-  margin-top:25px;
+  margin-top: 25px;
 }
 .nav-titles {
   width: 100%;
@@ -20,8 +20,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 .nav-titles h1 {
   color: white;
@@ -32,8 +32,8 @@ a{
 #chart-Title {
   text-decoration: underline;
 }
-#chart-Title-pg-2{
-    text-decoration: underline;
+#chart-Title-pg-2 {
+  text-decoration: underline;
 }
 .chart-list-container {
   height: 250px;
@@ -55,3 +55,58 @@ a{
   height: 450px;
   margin: 30px auto auto;
 }
+
+/*Page 2 Start*/
+.list-container {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list-title {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+}
+.list-title h1 {
+  text-decoration: underline;
+}
+.list-container ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.list-container li {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.list-container li:hover {
+  text-decoration: underline;
+}
+.documents-container {
+  width: 50%;
+  height: 100%;
+  margin-left: 100px;
+  border: 1px solid white;
+}
+.documents-title {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: white;
+}
+.content {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+/*Page 2 End*/
